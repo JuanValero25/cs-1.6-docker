@@ -15,4 +15,12 @@ run this command into your terminal
 docker-compose up -d
 ````
 
+# Spanish configs
+
+para connectarse como cliente desde afuera de una LAN tienen que instalar zeroTier y pedierle a tu host
+la red de zerotier y depues connectarse desde la ipconpuerto del zerotier
+
+ejemplo `connect 192.168.195.19:27016`
+/\ con esto ya te podrias connectarse al servidor
+
 
