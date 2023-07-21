@@ -16,5 +16,6 @@ services:
       - 27016:27016
     volumes:
       - ./server.cfg:/hlds/cstrike/server.cfg
+      - ./warm-up.cfg:/hlds/cstrike/warm-up.cfg
 
 
