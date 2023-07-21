@@ -13,6 +13,8 @@ to run the server need install docker /\
 run this command into your terminal
 ````
 docker-compose up -d
+docker-compose stop hlds
+docker cp maps cs-dedicated-server:/hlds/cstrike/
 ````
 
 # Spanish configs

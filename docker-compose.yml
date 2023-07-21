@@ -2,9 +2,10 @@ version: '3'
 
 services:
   hlds:
-    container_name: counter-strike_server
+    container_name: cs-dedicated-server
     image: febley/counter-strike_server:latest
     restart: always
+    privileged: true
     environment:
       - PORT=27016
       - MAP=de_dust2
@@ -17,3 +18,4 @@ services:
       - ./server.cfg:/hlds/cstrike/server.cfg
       - ./warmup.cfg:/hlds/cstrike/warmup.cfg
       - ./lo3.cfg:/hlds/cstrike/lo3.cfg
+
