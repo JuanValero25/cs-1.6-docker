@@ -3,6 +3,7 @@
 - Dependencies
 
     * [Docker](https://www.docker.com/)
+    * [ZeroTier](https://www.zerotier.com/) `this only if you are outside of the LAN`
 
 for millenials still playing this crap ;)
 
