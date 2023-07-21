@@ -1,0 +1,20 @@
+version: '3'
+
+services:
+
+  hlds:
+    container_name: counter-strike_server
+    image: febley/counter-strike_server:latest
+    restart: always
+    environment:
+      - PORT=27016
+      - MAP=de_dust2
+      - MAXPLAYERS=16
+      - SV_LAN=0
+    ports:
+      - 27016:27016/udp
+      - 27016:27016
+    volumes:
+      - ./server.cfg:/hlds/cstrike/server.cfg
+
+
